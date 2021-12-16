@@ -6,6 +6,10 @@
             <br>
             <br>
             <a><img class="icon" src="img/info.png" ></a>
+<br>
+<br>
+<br>
+<br>
 
 <h1>A Propos</h1>
 
