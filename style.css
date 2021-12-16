@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Kanit', sans-serif;
+    background-image: url('img/background.png');
+    color: black;
+}
+
+#menutop{
+    background-color: #bcbcbc
+    ;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.7%
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+/*Fin de la partie css du menutop.php */
+
+/*Partie css du accueil.php */
+
+#banderole{
+    padding: auto;
+    margin: auto;
+    height: 100px;
+    
+    text-align: center;
+    padding-top: 0.8%;
+    color: white
+    ;
+
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+/*Fin de la partie css du accueil.php */
+
+
+#head-title {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.boite {
+    padding: 30px;
+    margin: 100px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    align-items: center;
+}
+h1 {
+    font-weight: 900;
+    margin-top: 15px;
+
+    font-size: 20px;
+}
+.article {
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.carre {
+    width: 340px;
+    height: 290px;
+
+    box-shadow: 12px 12px 2px 1px #bcbcbc
+    ;
+}
+footer {
+    background-color: #bcbcbc
+    ;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: small;
+    position:fixed;
+    padding-top: 25px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#formation {
+    margin: 20px 50px;
+    align-items: center;
+}
+
+.container{
+    display: block;
+    height: auto;
+    width: 1200px;
+    border-radius: 3px;
+    padding: 10px 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top:100px;
+  }
+   
+  .container .bar:not(:last-child){
+    margin-bottom: 15px;
+  }
+   
+  .bar {
+    color: white;
+    width: 100%;
+    background: rgb(224, 224, 224);
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px #d3d3d3,
+    inset -5px -5px 10px #e2e2e2;
+  }
+   
+  .bar-stat{
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-shadow: 0 0 5px rgb(201, 201, 201);
+    background: #a1a1a1
+    ;
+  }
+.diplome{
+    margin: 150px;
+    height: 130px;
+    display:inline-block;
+    float:right;
+    
+}
+
+
+.textformation{
+    display: block;
+
+  }
+
+  .icon{
+    margin: 150px;
+    height: 130px;
+    display:inline-block;
+    float:right;
+    
+}
+
+
+.texticon{
+    display: block;
+
+  }
+
+  #iconn {
+    margin: 20px 50px;
+    align-items: center;
+}
