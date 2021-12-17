@@ -4,7 +4,7 @@
 
 <div class="home">
     <div>
-     <br>
+     
     <h1>Informations personnelles</h1>
         <ul>
             <p>07 71 13 56 04<br></p>
@@ -35,24 +35,24 @@
 </head>
 
 <body>
-<div class="head-title">
-     <br>
+<div class="head-title2">
+     
 </div>
-    <div class="boite">
-        <div class="article">
+    <div class="boite2">
+        <div class="article2">
             <a target="_blank" href="https://www.lyceetellier.fr/"><img
-                    class="carre" src="img/TELLIER.png" alt="article"></a>
+                    class="carre2" src="img/TELLIER.png" alt="article2"></a>
             <h1>Lycée Charles Tellier</h1>
         </div>
-        <div class="article">
+        <div class="article2">
             <a target="_blank" href="https://www.supavenir.fr/"><img 
-                    class="carre" src="img/Supavenir.png" alt="article"></a>
+                    class="carre2" src="img/Supavenir.png" alt="article2"></a>
             <h1>SupaVenir</h1>
         </div>
-        <div class="article">
+        <div class="article2">
             <a target="_blank"
             href="https://www.instagram.com/lenny_mklf"><img 
-            class="carre" src="img/logo-instagram-gris.png" alt="article"></a>
+            class="carre2" src="img/logo-instagram-gris.png" alt="article2"></a>
             <h1>Instagram</h1>
         </div>
     </div>

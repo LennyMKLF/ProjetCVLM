@@ -54,40 +54,13 @@ section:target {
 
 /*Fin de la partie css du accueil.php */
 
-
-#head-title {
-    font-size: 30px;
-    margin: 10px;
-    padding: 10px;
-}
-.boite {
-    padding: 30px;
-    margin: 100px 300px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px 20px;
-    align-items: center;
-}
 h1 {
     font-weight: 900;
     margin-top: 15px;
 
     font-size: 20px;
 }
-.article {
-    text-align: center;
-    cursor: pointer;
-    background-color: white;
-    padding: 15px 25px;
-    border-radius: 5px;
-}
-.carre {
-    width: 340px;
-    height: 290px;
 
-    box-shadow: 12px 12px 2px 1px #bcbcbc
-    ;
-}
 footer {
     background-color: #bcbcbc
     ;
@@ -171,3 +144,44 @@ footer {
     margin: 20px 50px;
     align-items: center;
 }
+
+#paragraphe {
+
+    margin-left: 250px;
+}
+
+#titre {
+    text-align: center;
+}
+#paragraphe2 {
+
+    text-align: center;
+}
+
+
+.boite2 {
+    padding: 30px;
+    margin-bottom: 150px;
+    margin-left: 300px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    align-items: center;
+}
+
+.article2 {
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    padding: 1px 25px;
+    border-radius: 5px;
+}
+.carre2 {
+    width: 340px;
+    height: 290px;
+
+    box-shadow: 12px 12px 2px 1px #bcbcbc
+    ;
+}
+
+

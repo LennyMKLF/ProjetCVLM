@@ -1,29 +1,35 @@
 <?php
+$data=yaml_parse_file('data/experience.yaml');
+
+echo "<br>";
+echo '<h2 id="titre">'.$data["titre"].'</h2>';
+echo "<p id='paragraphe'>".$data['paragraphe']."</p>"; 
+echo "<p id='paragraphe'>".$data['paragraphe2']."</p>";
+echo "<p id='paragraphe'>".$data['paragraphe3']."</p>";
+echo "<p id='paragraphe'>".$data['paragraphe4']."</p>"; 
+echo "<br>";
+echo '<h2 id="titre">'.$data["titre2"].'</h2>';
+echo "<p id='paragraphe2'>".$data['paragraphe5']."</p>";
+
 ?>
 <br>
 
-<center>
-<h2>Expériences professionnelles</h2>
-<br>    
-<ul>   
-     <p><b>Absix</b>, Solution Informatiques | 23 Décembre - 19 Décembre 2020 /   29 Mars 2021 - 16 Avril 2021 (Caen)</p> 
-       <p>Stage en distenciel - Travail sur machine virtuelle VirtualBox - Packet Tracer </p>
-       <br>
-       <p><b>Air PC Drive</b> | 13 Mai - 25 Mai 2019 / 25 Novembre - 21 Decembre 2019 (Cagny)</p>
-       <p>Montage et démontage micro-informatique - Installation de Windows 10 Professionnelles - Nettoyage (logiciel) complet d'ordinateur</p>
-       <br>
-       <p><b>Ere Informatique</b> | 3 Décembre - 21 Décembre 2018 (Caen)</p>                      </p>
-        <p>Montage et démontage ainsi que réparation micro-informatiques - Formation en ligne sur la sécurité informatiques (SecNum)</p>
-        <br>
-        <p><b>Bosch</b> | 12 Février - 16 Février 2018                                      </p>
-        <p>Travail avec les ressources humaines - Assistance à la configuration enceinte Devialet - Visite de fabrication éléctronique - Création du journal de l'entreprise</p>
-       </ul>
-        <br>    
-        <h2>Centres d'intérêts</h2>
-        <ul>
-            <p>Lecture, d'oeuvre japonaise principalement "manga"</p>
-           <p>Sport Collectif</p>
-            <p>L'informatique !</p>
-        </ul>
-    
-<center>
+
+<div class="boite2">
+        <div class="article2">
+            <a  target="_blank" href="https://secnumacademie.gouv.fr/"><img
+                    class="carre2" src="img/logo_secnum.png" alt="article2"></a>
+            <h1>SecNum Academie</h1>
+        </div>
+        <div class="article2">
+          <img 
+                    class="carre2" src="img/op.png" alt="article2"></a>
+            <h1>One Piece</h1>
+        </div>
+        <div class="article2">
+            <a target="_blank"
+            href="https://www.netacad.com/fr/courses/packet-tracer"><img 
+            class="carre2" src="img/Packet.png" alt="article2"></a>
+            <h1>Cisco Packet Tracer</h1>
+        </div>
+    </div>
