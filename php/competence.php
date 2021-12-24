@@ -1,7 +1,7 @@
 <center>
 <br>
 <br>
-                    <h3>Compétances logiciels</h3>
+                    <h3>Compétences logiciels</h3>
                     <p>
                        <li>WireSharq</li>
                     <li> Windows 7 - 8 - 10<br> </li>
@@ -10,7 +10,7 @@
                       <li>  Word, PowerPoint...<br> </li>         </p>
 
      <br>
-     <h3>Autres Compétances</h3>
+     <h3>Autres Compétences</h3>
 </center>
 
 <?php 
